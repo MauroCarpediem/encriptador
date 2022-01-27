@@ -1,0 +1,101 @@
+
+* {
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    background: #1D202B;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: black;
+    
+}
+
+header>p {
+    padding: 3px;
+    text-align: center;
+    font-size: 10px;
+}
+
+main {
+    padding-bottom: 60px;
+    background-image: url(/assets/img/galaxia-fondo.png);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 4px;
+    background: black;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+#contenedor-encriptador {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+
+    display: flex;
+    gap: 200px;
+}
+ul {
+    padding: 10px;
+}
+
+li {
+    font-size: 10px;
+}
+
+
+
+#seccion-desencriptacion>h2 {
+    text-align: center;
+    padding-bottom: 54px;
+}
+
+textarea {
+    border-radius: 8px;
+    background-color: rgb(52, 17, 109);
+    color: white;
+    border: black;
+    resize: none;
+}
+
+input {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48%;
+    height: 30px;
+    background: #141414;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius: 5px;
+
+}
+
+footer>p {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+

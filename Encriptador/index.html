@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+    <header>
+        <p>
+            Autor: Mauricio Gabler
+        </p>
+    </header>
+    <main>
+        <h1>Encriptador</h1>
+        <div id="contenedor-encriptador">
+            <section id="seccion-encriptacion">
+                <h2>Encriptador/Desencriptador</h2>
+                <ul>
+                    <li>Ingresa texto en minusculas</li>
+                    <li>Sin puntos de acentuacion</li>
+                    <li>En idioma espanol</li>
+                </ul>
+                <form >
+                    <textarea name="message" id="mensaje" cols="40" rows="10" placeholder="Ingrese su texto aqui"></textarea>
+                    <div id="contenedor-botones">
+                        <label for="encriptador"></label>
+                        <input type="button" name="encriptador" id="encriptador" value="Encriptador">
+
+                        <label for="desencriptador"></label>
+                        <input type="button" name="desencriptador" id="desencriptador" value="Desencriptador">
+                    </div>
+                    
+                </form>
+            </section>
+
+            <section id="seccion-desencriptacion">
+                <h2>Resultado</h2>
+                <form>
+                    <textarea name="final_message" id="mensaje2" cols="40" rows="10" placeholder="Aqui aparecera du texto encriptado/desencriptado."
+                    ></textarea>
+                    <div id="contenedor-btn-result">
+                        <label for="copy"></label>
+                        <input type="button" name="copy" id="copy" value="Copiar texto">
+                    </div>
+                    
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>   
+        <section>
+            <p>
+                <code>&copy;</code>MauroCarpediem
+            </p>
+            <p>
+                Sigueme en mis redes sociales
+            </p>
+            
+            <a href="#">
+                <img src="/assets/img/10165394971530077750.svg" width="20" alt="face">
+            </a>
+
+            <a href="#">
+                <img src="/assets/img/9741883171561032669.svg" width="20" alt="insta">
+            </a>
+        </section>
+    </footer>
+
+    <script src="/js/funciones_encriptador.js"></script>
+</body>
+</html>
